@@ -30,24 +30,38 @@
 // //==================================
 // //question 3
 
-// var main=[10,3,65,2,10,74,10,874,51,45];
-// for(var i=0; i<main.length;i++){
-//     console.log(main[i]);
+// function mostCommon(array){
+//     var counter =0, max =0, char;
+//     for(var i=0; i<array.length;i++){
+//         counter = 0;
+//         for (var j=i+1;j<array.length;j++){
+//             if(array[i] == array[j]){
+//                 counter++;
+//             }
+//         }
+//         if(counter>max){
+//             max = counter;
+//             char == array[i];
+//         }
+
+//         console.log(counter);
+//     }
+//     return char;
 // }
 
-
+//  array=[45,67,67,29,45,90,67];
 
 // //==================================
 // //question 4
 
-var Four = 1;
-function taskFour(number){
-    for(var i=1;i<=number;i++){
-        Four= Four*i;
-    }
-    return Four;
-}
-console.log(taskFour(5));
+// var Four = 1;
+// function taskFour(number){
+//     for(var i=1;i<=number;i++){
+//         Four= Four*i;
+//     }
+//     return Four;
+// }
+// console.log(taskFour(5));
 
 
 // //==================================
